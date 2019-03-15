@@ -1,0 +1,51 @@
+.create-form {
+    background-color:#F0F4F3;
+   margin:0;
+   left:0;
+}
+
+input {
+    width:80%;
+    padding:20px;
+}
+select {
+    width:80%;
+    padding:20px;
+    border:None;
+}
+input::placeholder {
+    opacity: 0.5;
+    font-style: italic;
+    color:grey;
+}
+
+input {
+            
+            width: 80%;
+            padding:20px;
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+            color:grey;
+            border:none;
+            background-color:white;
+}
+input:hover{
+    cursor:pointer;
+}
+.error p{
+    font-family:sans-serif;
+    font-style: italic;
+    color:#1C3341;
+    border-left: 2px solid #008773;
+    display: inline-block;
+    font-size: .8em;
+    padding:.5em;
+    margin-left:10px;
+    
+}
+.valid {
+    font-size:1em;
+    color:Green;
+}

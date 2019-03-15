@@ -1,0 +1,36 @@
+<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+<div class="todo" *ngFor="let to of todos">
+  <div class="todo-content">
+    <div class="hand"></div>
+    <div class="todo-content-status">
+
+    </div>
+    <div class="todo-content-info">
+      <div class="b">
+          <h1>{{to.id}}</h1>
+          <div [ngClass]="{
+            'low':to.importance === 'low',
+            'medium':to.importance === 'medium',
+            'high':to.importance === 'high'
+          }"><h3>&equiv;</h3></div>
+      </div>
+      <div class="b1">
+        <h2>{{to.name}}</h2>
+        
+        <div class="sub-content">
+            <div class="b11">
+                <p><b>Description:</b> {{to.shortDescription}}</p>
+             </div>
+            <div class="b12">
+              <p><b>Created by:</b> {{to.nameofPerson}}</p>
+            </div>
+            <div class="b13">
+                <p><b>Ending:</b> {{to.endDate}}</p>
+              </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+

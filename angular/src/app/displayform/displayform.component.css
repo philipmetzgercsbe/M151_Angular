@@ -1,0 +1,56 @@
+.todo-content {
+    margin-top:10px;
+}
+.todo-content-info {
+    display:flex;
+    border:none;
+    
+    
+}
+.b {
+    width:40px;
+    border-right:1px solid #86C2B4;  
+    text-align:center;
+    background-color:#094A5B;  
+    color:#F0F4F3;
+    font-family: 'Staatliches', cursive;
+}
+
+.b1 {
+    padding-left:20px;
+    padding-right:20px;
+    flex:3;
+    background-color:white;
+    color:#094A5B;
+    
+}
+.b1 h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+@media screen and (min-width:500px){
+    .sub-content {
+        display:flex;
+    }
+}
+.b11 {
+    flex:1;
+    color:#404040;
+}
+.b12 {
+    flex:1;
+    color:#404040;
+}
+.b13 {
+    color:#404040;
+}
+.low {
+    color:green;
+    
+}
+.medium {
+   color:yellow;
+}
+.high {
+    color:red;
+}

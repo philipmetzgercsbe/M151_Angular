@@ -1,0 +1,38 @@
+<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+<div class="todo">
+    <div class="sidebar">
+            <p>{{toDo$.id}}</p> 
+            <div [ngClass]="{
+                'low':toDo$.importance === 'low',
+                'medium':toDo$.importance === 'medium',
+                'high':toDo$.importance === 'high'
+              }"><h3>!</h3></div>
+    </div>
+    <div class="mainbar">
+        <div class="title">
+                &#8226;<input class="titles" [(ngModel)]="toDo$.name" (blur)="change($event)">
+            <div class="s-mainbar">
+                <div class="b1">
+                    <label class="t">Description:</label>
+                        <input  [(ngModel)]="toDo$.shortDescription" (blur)="change($event)">
+                    
+                </div>
+                <div class="b2">
+                    <label class="t">Meant for:</label> 
+                        <input  [(ngModel)]="toDo$.nameofPerson" (blur)="change($event)">
+                       
+                </div>
+                <div class="b3">
+                    <label class="t">Ending:</label>
+                            <input  [(ngModel)]="toDo$.endDate" (blur)="change($event)">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="delete" (click)="delete($event)">
+        <p>X</p>
+    </div>
+    
+</div>
+

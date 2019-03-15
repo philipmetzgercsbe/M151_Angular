@@ -1,0 +1,49 @@
+
+<div class="create-form">
+  <form [formGroup]="messageForm" (ngSubmit)="createTodo($event)">
+  <h5 *ngIf="success" class="valid">Your form is valid</h5>
+  <div class="create-content">
+    <input formControlName="name" [(ngModel)]="toDo.Name" type="text" placeholder="Title">
+    <div *ngIf="submitted && messageForm.controls.name.errors" class="error">
+      <div *ngIf="submitted && messageForm.controls.name.errors.required" class="error">
+          <p>&#8226; Field is required</p>
+      </div>
+    </div>
+    <input formControlName="desc" [(ngModel)]="toDo.ShortDescription" type="text" placeholder="Description">
+    <div *ngIf="submitted && messageForm.controls.desc.errors" class="error">
+        <div *ngIf="submitted && messageForm.controls.desc.errors.required" class="error">
+            <p>&#8226; Field is required</p>
+        </div>
+        <div *ngIf="submitted && messageForm.controls.desc.errors.maxLength" class="error">
+            <p>&#8226; Min-length is 5</p>
+        </div>
+      </div>
+    <input formControlName="nameofp" [(ngModel)]="toDo.NameofPerson" type="text" placeholder="Name of person">
+    <div *ngIf="submitted && messageForm.controls.nameofp.errors" class="error">
+        <div *ngIf="submitted && messageForm.controls.nameofp.errors.required" class="error">
+            <p>&#8226; Field is required</p>
+        </div>
+      </div>
+    <input formControlName="enddate" [(ngModel)]="toDo.EndDate"type="date" placeholder="End Date">
+    <div *ngIf="submitted && messageForm.controls.enddate.errors" class="error">
+        <div *ngIf="submitted && messageForm.controls.enddate.errors.required" class="error">
+            <p>&#8226; Field is required</p>
+        </div>
+      </div>
+     
+   
+  </div>
+  <select formControlName="importance" [(ngModel)]="toDo.Importance" >
+      <option *ngFor="let o of options" value="{{o.name}}">
+       {{o.name}}
+      </option>
+    </select>
+    <div *ngIf="submitted && messageForm.controls.importance.errors" class="error">
+        <div *ngIf="submitted && messageForm.controls.importance.errors.required" class="error">
+            <p>&#8226; Field is required</p>
+        </div>
+      </div>
+    <input type="submit" value="Submit">
+  
+</form>
+</div>

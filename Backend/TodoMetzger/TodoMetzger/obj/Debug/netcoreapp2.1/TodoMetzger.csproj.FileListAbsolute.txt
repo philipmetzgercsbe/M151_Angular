@@ -1,0 +1,28 @@
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\bin\Debug\netcoreapp2.1\TodoMetzger.deps.json
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\bin\Debug\netcoreapp2.1\TodoMetzger.runtimeconfig.json
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\bin\Debug\netcoreapp2.1\TodoMetzger.runtimeconfig.dev.json
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\bin\Debug\netcoreapp2.1\TodoMetzger.dll
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\bin\Debug\netcoreapp2.1\TodoMetzger.pdb
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.csprojAssemblyReference.cache
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.csproj.CoreCompileInputs.cache
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.RazorAssemblyInfo.cache
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.RazorAssemblyInfo.cs
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.AssemblyInfoInputs.cache
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.AssemblyInfo.cs
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.RazorTargetAssemblyInfo.cache
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.dll
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.pdb
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\bin\Debug\netcoreapp2.1\TodoMetzger.deps.json
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\bin\Debug\netcoreapp2.1\TodoMetzger.runtimeconfig.json
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\bin\Debug\netcoreapp2.1\TodoMetzger.runtimeconfig.dev.json
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\bin\Debug\netcoreapp2.1\TodoMetzger.dll
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\bin\Debug\netcoreapp2.1\TodoMetzger.pdb
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.csprojAssemblyReference.cache
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.csproj.CoreCompileInputs.cache
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.RazorAssemblyInfo.cache
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.RazorAssemblyInfo.cs
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.AssemblyInfoInputs.cache
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.AssemblyInfo.cs
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.RazorTargetAssemblyInfo.cache
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.dll
+C:\151\Angular\TodoApp\Backend\TodoMetzger\TodoMetzger\obj\Debug\netcoreapp2.1\TodoMetzger.pdb

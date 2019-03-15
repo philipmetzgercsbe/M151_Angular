@@ -1,0 +1,19 @@
+<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+<div class="view">
+  <h4 (click)="toggle('create')">Create</h4> 
+    <div class="create" *ngIf="visible === 'create'">
+        <app-createform></app-createform> 
+    </div> 
+    <h4 (click)="toggle('signup')">Signup</h4> 
+    <div class="signup" *ngIf="visible === 'signup'">
+        <app-signup></app-signup> 
+    </div> 
+    <h4 (click)="toggle('edit')">View<span>({{(cs.$todos | async).length}})</span></h4> 
+    <div class="edit" *ngIf="visible === 'edit'">
+        <app-editform [toDo$]="todo" *ngFor="let todo of cs.$todos | async"></app-editform> 
+    </div> 
+    <h4 (click)="toggle('signin')">Signin</h4> 
+    <div class="signup" *ngIf="visible === 'signin'">
+        <app-signin></app-signin> 
+    </div> 
+</div>

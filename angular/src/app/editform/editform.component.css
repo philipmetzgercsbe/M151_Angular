@@ -1,0 +1,62 @@
+@media screen and (min-width:740px){
+    .s-mainbar {
+        display:flex;
+    }
+}
+.todo {
+    display:flex;
+    margin-top:20px;
+}
+.sidebar {
+    color:#F0F4F3;
+    width:40px;
+    text-align:center;
+    background-color:#094A5B;
+    font-family: 'Staatliches', cursive;
+    font-size:20px;
+}
+.delete {
+    width:20px;
+    color:black;
+    background-color:white;
+    font-family:sans-serif;
+}
+.delete p:hover {
+    color:red;
+    cursor: pointer;
+}
+.mainbar {
+   padding:20px;
+    flex:1;
+    background-color:white;
+}
+.b1,.b2,.b3 {
+    padding-left:10px;
+    flex:1;
+    float:left;
+    
+}
+.t {
+    font-family:sans-serif;
+}
+input {
+    border:none;
+}
+input:focus {
+    outline:none;
+}
+.titles {
+    font-family: 'Staatliches', cursive;
+    height:40px;
+    line-height: 40px;
+    font-size:19px;
+}
+.low {
+    color:green;
+}
+.medium{
+    color:yellow;
+}
+.high {
+    color:red;
+}

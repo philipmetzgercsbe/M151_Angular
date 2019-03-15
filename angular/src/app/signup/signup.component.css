@@ -1,0 +1,54 @@
+span {
+  font-weight: bold;
+  font-size:60px;
+  font-family: 'Old Standard TT', serif;
+  color:#334A5A;
+}
+h1 {
+  font-weight:bold;
+  font-size:60px;
+  font-family: 'Old Standard TT', serif;
+  color:#0C1824;
+}
+.b2 {
+  padding:20px;
+}
+.title {
+  text-align:center;
+  margin-bottom:70px;
+}
+
+.signupform {
+  margin-top:20px;
+  text-align:center;
+  border-left:1px solid black;
+  font-family: 'Old Standard TT', serif;
+}
+.signupform input{
+  height:40px;
+  width:300px;
+  margin-top:20px;
+  border:none;
+  outline:none;
+  border-bottom:1px solid black;
+}
+.signupform input[type=text], .signupform input[type=password]{
+  padding:10px;
+  font-family: 'Old Standard TT', serif;
+}
+.signupform button {
+  font-family: 'Old Standard TT', serif;
+  margin-top:20px;
+  width:300px;
+  border:none;
+  background-color:black;
+  outline:none;
+  color:white;
+  padding:12px;
+}
+.signupform button:hover {
+  background-color: #334A5A;
+}
+p {
+  margin-top:20px;
+}
